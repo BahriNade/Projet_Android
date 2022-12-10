@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Magasin</string>
+    <string name="login_string">Already have an account? <b>Login here</b></string>
+    <string name="API_KEY">AIzaSyDII4FRJy7VwbcLFo69n3SUeG7cK4vg-OA</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

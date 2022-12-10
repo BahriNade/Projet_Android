@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/ges"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gestion des produits"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/btnInsertData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ajouter "
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnRetreiveData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Lister"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btnLocalisation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="localisation"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
